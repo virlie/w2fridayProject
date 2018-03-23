@@ -1,8 +1,8 @@
 Portfolio Project
-16 March,2018 v.1.0.0
+22 March,2018 v.1.0.0
 By Virlie Joy Paglinawan
 Description
-This is a Portfolio Project Week 1 at Epicodus. Visit this page at https://github.com/virlie/w2fridayProject.git
+This is a Tracker Suggestion at Epicodus. Visit this page at https://github.com/virlie/w2fridayProject.git
 
 Setup/Installation Requirements
 clone this repo. (to your Desktop)
@@ -14,10 +14,10 @@ Known Bugs
 There are no known bugs.
 
 Support and contact details
-Please feel free to contact virliejoyp@yahoo.com for questions
+Please feel free to contact virliejoyp@yahoo.com for questions or text me at (503)444-1808
 
 Technologies Used
-css git html
+css git html jquery bootstrap jscripts
 
 License
 This software is licensed under the MIT license.
