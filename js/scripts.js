@@ -4,13 +4,13 @@ $(document).ready(function(){
   var php = 0;
 
 function questionCheck (question) {
-    if (question === 2){
+    if (question == 2){
       ruby = ruby + 1;
 
-    } else if (question === 1) {
+    } else if (question == 1) {
       java = java + 1;
 
-    } else if (question === 3) {
+    } else if (question == 3) {
       php = php + 1;
     } else {
       alert("oops");
@@ -39,7 +39,7 @@ function questionCheck (question) {
     // dynamic variables
     for (i = 1; i < 11; i++) {
       window['question'+i] = ($(("#question"+i)+" option:selected")).val()
-      questionCheck(parseInt(window['question'+i]))
+      questionCheck(window['question'+i])
     }
     //log current counts
     console.log("java count: " + java)

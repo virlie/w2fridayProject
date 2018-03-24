@@ -1,0 +1,10 @@
+img {
+  horizontal align: middle;
+  border-style: groove;
+  width: 200px;
+  height:500px;
+}
+h1 {
+  text-decoration: underline;
+  background-color: yellow;
+}
