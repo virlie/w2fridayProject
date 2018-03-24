@@ -37,9 +37,16 @@ function questionCheck (question) {
 
   $(".quiz").submit(function() {
     // dynamic variables
+    event.preventDefault()
     for (i = 1; i < 11; i++) {
-      window['question'+i] = ($(("#question"+i)+" option:selected")).val()
-      questionCheck(window['question'+i])
+      window['question'+i] = parseInt($(("#question"+i)+" option:selected").val())
+      if (window['question'+i] !== 0) {
+        questionCheck(window['question'+i])
+      }
+      else {
+        alert("You must fill out the whole form")
+        break
+      }
     }
     //log current counts
     console.log("java count: " + java)
