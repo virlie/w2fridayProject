@@ -18,24 +18,26 @@ function questionCheck (question) {
   }
 
   function mostCommon (j,r,p) {
+    var result = '';
     if ( j > r && j > p) {
-      alert("you should take java!")
+      result = "you should take java!";
     } else if ( r > j && r > p) {
-      alert("you should take ruby!")
+      result = "you should take ruby!";
     } else if ( p > r && p > j) {
-      alert("you should be in php!")
+      result = "you should be in php!";
     } else if ( r == j && r > p ){
-      alert("you could take ruby or java")
+      result = "you could take ruby or java";
     } else if ( r == p && r > j ){
-      alert("you could take ruby or php")
+      result = "you could take ruby or php";
     } else if ( p == j && p > r ){
-      alert("you could take php or java")
+      result = "you could take php or java";
     } else {
-      alert("you are a very interesting person! flip a coin :)")
+      result = "you are a very interesting person! flip a coin :)";
     }
+    return result;
   }
 
-  $(".quiz").submit(function() {
+  $(".quiz").submit(function(event) {
     // dynamic variables
     event.preventDefault()
     for (i = 1; i < 11; i++) {
@@ -53,8 +55,9 @@ function questionCheck (question) {
     console.log("ruby count: " + ruby)
     console.log("php count: " + php)
     //find most common and alert user to their track
-    mostCommon(java,ruby,php)
+    var res = mostCommon(java,ruby,php)
+    $("#output").append("<p class='display-3'>"+res+"</p>");
 
-  })
+  });
 })
 //
