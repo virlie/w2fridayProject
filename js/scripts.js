@@ -20,19 +20,19 @@ function questionCheck (question) {
   function mostCommon (j,r,p) {
     var result = '';
     if ( j > r && j > p) {
-      result = "you should take java!";
+      result = "You should take java!";
     } else if ( r > j && r > p) {
-      result = "you should take ruby!";
+      result = "You should take ruby!";
     } else if ( p > r && p > j) {
-      result = "you should be in php!";
+      result = "You should be in php!";
     } else if ( r == j && r > p ){
-      result = "you could take ruby or java";
+      result = "You could take ruby or java";
     } else if ( r == p && r > j ){
-      result = "you could take ruby or php";
+      result = "You could take ruby or php";
     } else if ( p == j && p > r ){
-      result = "you could take php or java";
+      result = "You could take php or java";
     } else {
-      result = "you are a very interesting person! flip a coin :)";
+      result = "You are a very interesting person! flip a coin :)";
     }
     return result;
   }
