@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   height: 500%;
   background-image: url("hal01.jpeg");
@@ -11,4 +12,19 @@ body {
 }
 body {
   text:white;
+=======
+img {
+  horizontal align: middle;
+  border-style: groove;
+  width: 200px;
+  height:500px;
+}
+h1 {
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+body {
+  background-color: gray;
+>>>>>>> 1271b2427c0e0816d516fc80032ad2bce2617770
 }

@@ -12,35 +12,30 @@ Installation:
 
 Specification:
 
-  User needs to be able to see what they typed in.
-    Example input: 2350435
-    Example output:2350435
+1.)Program replaces the 0s with the word "beep"
+    Example input:
+    Example output:beep
 
-  Program needs to ignore commas.
-    Example input: 2,445
-    Example output:"I'm sorry, Dave. I'm afraid I can't do that."
+2.)Program replaces the 1s with the word "boop"
+    Example input: 1
+    Example output:"beep,boop"
 
-  Program needs to evaluate whether the input was a number or not a number.
+3.)Program needs to recognize the numbers that are inputted, if divisible by 3, are replaced with "I'm sorry, Dave. I'm afraid I can't do that."
+    Example input: 3
+    Example output: "beep,boop,I'm sorry, Dave. I'm afraid I can't do that."
+
+4.)Program needs to ignore commas.
+    Example input: 0,1,3
+    Example output:"beep boop I'm sorry, Dave. I'm afraid I can't do that."
+
+5.)Program needs to evaluate whether the input was a number or not a number.
     Example input: adff
     Example output: alert error message.
 
-  If user had input a number divisible by 3, program will show message: "I'm sorry, Dave. I'm afraid I can't do that."
-    Example input: 9
-    Example output: If user had input a number a 1, and not divisible by 3, program will show a message that will say: "Beep".
-      Example input: 10
-      Example output:"Beep
-
-  If user had input a number a 1, and not divisible by 3, program will show a message that will say: "Boop".
-    Example input: 10
-    Example output:"Boop"
-
-  If user had input a number 0, and not divisible by 3, program will show a message that will say: "Beep".
-    Example input: 0
-    Example output:"Beep"
 
 
     Known Issues:
-      None that I know of, if you see any issues, please contact me at virliejoyp@yahoo.com, and or send me a text message at 503-444-1808
+    None that I know of, if you see any issues, please contact me at virliejoyp@yahoo.com, and or send me a text message at 503-444-1808
 
     Technologies Used:
     Html
@@ -51,8 +46,8 @@ Specification:
 
 
     Author:
-      Virlie Joy Paglinawan
+    Virlie Joy Paglinawan
 
     License:
-      MIT
-      Copyright (c) 2018 Joy
+    MIT
+    Copyright (c) 2018 Joy
